@@ -1,3 +1,24 @@
-[{"action":"changetype","columnIndex":10,"newType":"string"}]
-
-{"action":"visualization","visualization":"barchart","visTitle":"Activities per day","from":-1,"to":-1,"labels":"Day of the week|Number of activities","aggregations":["","count"],"top":50,"left":1,"width":45,"height":45,"zIndex":"3","sortBy":{"label":"Day of the Week","ascending":true}},{"action":"visualization","visualization":"barchart","visTitle":"Activities per hour of the day","from":-1,"to":-1,"labels":"Hour|Number of activities","aggregations":["","count"],"top":50,"left":50,"width":45,"height":45,"zIndex":"16","sortBy":{"label":"Hour","ascending":true}},{"action":"visualization","visualization":"radarChart","visTitle":"Indicators","from":-1,"to":-1,"labels":"scope|coverage|diversity|complexity","aggregations":["","avg","avg","avg"],"top":1,"left":1,"width":45,"height":45,"zIndex":"10","sortBy":{"label":"Scope","ascending":true}},{"action":"visualization","visualization":"parallelCoordinates","visTitle":"Indicators","from":-1,"to":-1,"labels":"scope|coverage|diversity|complexity","aggregations":["","avg","avg","avg"],"top":1,"left":50,"width":45,"height":45,"zIndex":"15","sortBy":{"label":"scope","ascending":true}}]
+[{"action":"changetype","columnIndex":10,"newType":"string"},
+ {"action":"brush","selectedData":[]},
+ {"action":"visualization","visualization":"radarChart",
+  "visTitle":"Indicators","from":-1,"to":-1,
+  "labels":"scope|coverage|diversity|complexity",
+  "aggregations":["","avg","avg","avg"],
+  "top":1,"left":1,
+  "width":45,"height":45,
+  "zIndex":"1",
+  "sortBy":{"label":"scope","ascending":true}},
+ {"action":"visualization","visualization":"barchart",
+  "visTitle":"Activities by day of the week",
+  "from":-1,"to":-1,
+  "labels":"Day of Week|#Day of Week","aggregations":["","count"],
+  "top":50,"left":1,
+  "width":45,"height":45,
+  "zIndex":"4","sortBy":{"label":"#Day of Week","ascending":true}},
+{"action":"visualization","visualization":"bubblechart",
+  "visTitle":"Indicators (size of buble = complexity)",
+  "from":-1,"to":-1,"labels":"scope|coverage|complexity|diversity",
+  "aggregations":["","avg","avg","avg"],
+  "top":1,"left":50,"width":45,"height":45,"zIndex":"7",
+  "sortBy":{"label":"scope","ascending":true}}
+]
