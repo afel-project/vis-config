@@ -20,5 +20,10 @@
   "from":-1,"to":-1,"labels":"scope|coverage|complexity|diversity",
   "aggregations":["","avg","avg","avg"],
   "top":1,"left":50,"width":45,"height":45,"zIndex":"7",
-  "sortBy":{"label":"scope","ascending":true}}
+  "sortBy":{"label":"scope","ascending":true}},
+ {"action":"visualization","visualization":"barchart",
+  "visTitle":"Activities by hour of the day",
+  "from":-1,"to":-1,"labels":"Hour|#Hour",
+  "aggregations":["","count"],
+  "top":50,"left":50,"width":45,"height":45,"zIndex":"10","sortBy":{"label":"Hour","ascending":true}}
 ]
